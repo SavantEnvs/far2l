@@ -1,0 +1,26 @@
+#!/bin/sh
+# This is a shell archive
+echo x a.txt
+sed 's/^X//' > a.txt << 'SHAR_END'
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+Xhello world
+SHAR_END
+exit

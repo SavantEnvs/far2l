@@ -1,0 +1,9 @@
+project: savantenvs/far2l
+target: multiarc-arj
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/multiarc-arj/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_multiarc_arj
+    libfuzzer: true
+    timeout: 10

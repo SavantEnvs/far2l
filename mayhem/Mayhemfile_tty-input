@@ -1,0 +1,9 @@
+project: savantenvs/far2l
+target: tty-input
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/tty-input/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_tty_input
+    libfuzzer: true
+    timeout: 10

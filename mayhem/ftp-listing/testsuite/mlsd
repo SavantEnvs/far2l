@@ -1,0 +1,3 @@
+type=file;size=1024;modify=20200102030405;UNIX.mode=0644;UNIX.uid=1000;UNIX.gid=100;unique=801g4804; a.txt
+type=dir;modify=20200102030405.123;perm=el; sub
+type=OS.unix=slink:/tmp;size=4; ln
